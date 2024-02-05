@@ -1,0 +1,150 @@
+.nav-body{
+    height: 80px;
+    background-color: rgb(156, 44, 29);
+    position: sticky;
+    top: 0;
+}
+body{
+    margin: auto;
+    background: #000;
+}
+.nav-logo{
+    color: darksalmon;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.nav-menus{
+    padding-top: 15px;
+    color: white;
+}
+.layer-one{
+    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url("https://thesmartlocal.com/wp-content/uploads/2015/05/images_easyblog_images_2163_image04_20150506-054700_1.jpg");
+    height: 600px;
+    background-size: cover;
+}
+.first-layer-heading{
+    padding-top: 252px;
+    font-size: larger;
+    font-family: auto;
+}
+.second-layer{
+    background: #000;
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 75px;
+}
+.second-layer-heading{
+    padding-top: 105px;
+}
+.sec-lyr-img{
+    height: 200px;
+}
+.second-loayer-p{
+    font-size: smaller;
+}
+.second-layer-a{
+    font-size: small;text-decoration: none;color: rgb(156, 44, 29);
+}
+.second-layer-imgs{
+    display: flex;
+    justify-content: center;
+}
+.third-layer{
+    background: #000;
+}
+.third-layer-content{
+    text-align: center; 
+}
+.third-layer-img{
+    height: 300px;
+    border-radius: 15px;
+}
+.fourth-layer{
+    background: #000;
+    text-align: center;
+}
+.fourth-layer-img{
+    height: 300px;
+    border-radius: 15px;
+}
+.fifth-layer{
+    background: #000;
+    text-align: center;
+}
+.sixth-layer{
+    background: #000;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer{
+    background: #000;
+}
+
+@media(min-width: 800px){
+    .third-layer-grid{
+        display: flex;
+        justify-content: center;
+    }
+    .fourth-layer-grid{
+        display: flex;
+        justify-content: center;
+        padding-top: 55px;
+        padding-bottom: 60px;
+    }
+    .footer-content{
+        display: flex;
+        height: 200px;
+    }
+    .ddb{
+        color: aliceblue;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+    .first-layer-heading{
+        padding-top: 70px;
+        font-size: xx-small;
+        font-family: auto;
+    }
+    .layer-one {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url(https://thesmartlocal.com/wp-content/uploads/2015/05/images_easyblog_images_2163_image04_20150506-054700_1.jpg);
+        height: 240px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+    }    
+    .sec-lyr-img{
+        height: 155px;
+        padding: 10px;
+    }
+    .third-layer{
+        background-color: #000;
+        padding-top: 85px;
+        padding-bottom: 55px;
+    }
+    .third-layer-img{
+        height: 225px;
+        margin-top: 30px;
+    }
+    .fourth-layer-img{
+        height: 225px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .fourth-layer{
+        padding-bottom: 30px;
+    }
+    .fifth-layer-img{
+        height: 175px;
+    }
+    .fifth-layer-img{
+        height: 175px;
+    }
+    .ddb{
+        color: aliceblue;
+        margin-left: 25px;
+        font-size: small;
+    }
+}
